@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'colors.dart';
+import 'app_theme.dart';
 import 'views/splash.dart';
 
 void main() {

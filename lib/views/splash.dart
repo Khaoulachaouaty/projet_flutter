@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../colors.dart';
-//import 'auth/login.dart';
+import 'auth/login.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});
@@ -16,7 +16,7 @@ class _SplashState extends State<Splash> {
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const Scaffold()),
+        MaterialPageRoute(builder: (context) => const Login()),
       );
     });
   }
